@@ -1,0 +1,27 @@
+body
+{
+    background-color: skyblue;
+    text-align: center;
+    padding left: 400px
+}
+fieldset
+{
+    text-align: left;
+    border: 0px solid black;
+    padding-left: 550px;
+
+}
+form
+{
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display:inline-table;
+
+}
+button
+{
+    background-color :skyblue;
+}
