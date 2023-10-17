@@ -1,13 +1,6 @@
-function reverseWords(sentence) {
-    const words = sentence.split(' ');
-    const reversedWords = words.map(word =>
-        {
-            return word.split('').reverse().join('');
-        });
 
-    const reversedSentence = reversedWords.join(' ');
-    return reversedSentence;
-}
-const input = "This is a sunny day";
-const output = reverseWords(input);
-console.log(output);
+let numbers = [1,2,4,50,20,49,67];
+numbers.sort(function(a, b) {
+return b - a;
+});
+console.log(numbers);
